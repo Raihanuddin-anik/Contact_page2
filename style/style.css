@@ -1,0 +1,168 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #fff;
+}
+
+/* header */
+
+ul.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+ul.navbar li {
+    float: left;
+}
+
+ul.navbar li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 30px;
+    text-decoration: none;
+    background-color: white;
+    text-transform: uppercase;
+}
+
+ul.navbar li a:hover {
+    background-color: black;
+    color: white;
+}
+
+/* Style the navigation bar */
+
+.Top_nav {
+    background-color: #FAF2F2;
+}
+
+nav {
+    background-color: #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+/* Style the logo */
+.logo img {
+    width: 100px;
+    /* Adjust the width to your logo size */
+}
+
+/* Style the list items */
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+/* Style the links */
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Change link color on hover */
+nav a:hover {
+    color: #ff9900;
+}
+
+
+h2{
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+}
+h4{
+    color: #DADD4E;
+    text-align: center;
+    padding-top: 30px;
+
+}
+
+.radio_container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+label {
+    margin-right: 10px;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
+.contact_section{
+    background-color: #8382D3;
+    width: 80%;
+    margin: auto;
+    height: 100vh;
+    padding-top: 20px ;
+}
+.contact-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="phone"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #333;
+    width: 100%;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+/*  Footer */
+
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 0;
+    margin-top: 20px;
+}
+
+.container {
+   align-items: center;
+   text-align: center;
+}
+
+p {
+    font-size: 16px;
+}
